@@ -1,0 +1,133 @@
+@import "./style.scss";
+
+body {
+  @include headermain;
+}
+
+
+@import "./footers.scss";
+
+body {
+    @include headermain;
+}
+
+
+.join-now-top {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.join-now-form {
+  width: 500px;
+  height: 1000px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-top: 30px;
+  position: relative;
+
+}
+
+.password-icon{
+  position: absolute;
+  right: 70px;
+  top: 460px;
+}
+
+.join-now-forms {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.join-now-form {
+  display: flex;
+ 
+  flex-direction: column;
+}
+
+.custom-checkbox {
+  display: inline-block;
+  position: relative;
+}
+
+.checkbox-input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.checkbox-label {
+  position: relative;
+  padding-left: 25px;
+  cursor: pointer;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.checkbox-input:checked~.checkbox-label .checkmark {
+  background-color: green;
+}
+
+.checkbox-input:checked~.checkbox-label .checkmark::after {
+  content: "✓";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 14px;
+}
+
+.custom-checkbox {
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+
+.boxses {
+  width: 400px;
+  height: 50px;
+  border-radius: 10px;
+  margin-top: 10px;
+  padding-left: 20px;
+  margin-left: 50px;
+  
+ 
+}
+
+
+.join-now-span-1{
+  padding-left: 50px;
+  padding-top: 50px;
+}
+.join-now-span-2{
+  padding-left: 50px;
+  font-weight: bold;
+}
+
+.checkbox-2{
+  position: absolute;
+  top: 810px;
+  left: 30px;
+}
+
+.join-now-btn{
+  width: 190px;
+  height: 60px;
+  border-radius: 100px;
+  border: none;
+  background-color: rgb(0, 98, 65);
+  color: white;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-left: 250px;
+}

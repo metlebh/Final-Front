@@ -1,0 +1,68 @@
+@mixin Footer{
+    .footer-top{
+        display: flex;
+        justify-content: flex-start;
+        padding-right: 100px;
+        height: 400px;
+        border-top: 1px solid grey ;
+        border-bottom: 1px solid grey ;
+    }
+    li:first-child{
+        font-size: 25px;
+        font-weight:400;
+        padding-top: 100px;
+    }
+    .ul2{
+        display: inline-block;
+        list-style: none;
+        font-size: 17px;
+    }
+    .footer-brands{
+        display: inline;
+        display: flex;
+        padding-top: 5px;
+        padding-left: 30px;
+    }
+    .footer-a{
+        display: inline;
+        padding-top: 30px;
+        padding-left: 10px;
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+    }
+}
+
+.footer-top{
+    display: flex;
+    justify-content: flex-start;
+    padding-right: 100px;
+    height: 300px;
+    border-top: 1px solid grey ;
+    border-bottom: 1px solid grey ;
+}
+li:first-child{
+    font-size: 25px;
+    font-weight:400;
+    padding-top: 100px;
+}
+.ul2{
+    display: inline-block;
+    list-style: none;
+    font-size: 17px;
+}
+.footer-brands{
+    display: inline;
+    display: flex;
+    padding-top: 5px;
+    padding-left: 30px;
+}
+
+.footer-a{
+    display: inline;
+    padding-top: 30px;
+    padding-left: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}

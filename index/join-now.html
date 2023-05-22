@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/fontawesome.min.css"
+        integrity="sha512-SgaqKKxJDQ/tAUAAXzvxZz33rmn7leYDYfBP+YoMRSENhf3zJyx3SBASt/OfeQwBHA1nxMis7mM3EV/oYT6Fdw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins&display=swap">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <title>Starbucks Cofee Company</title>
+    <link rel="icon" type="image/x-icon" href="/IMG/FavIcon.png">
+    <link rel="stylesheet" href="./join-now.css">
+</head>
+
+<body>
+    <header>
+        <a class="main-menu" href="/index/index.html">aaaaaaaaaa <br> aaaaaaaaaa <br> aaaaaaaaaa</a>
+        <div class="header-left">
+            <img class="header-logo" src="/IMG/FavIcon.png" alt="">
+            <div class="header-left-a">
+                <a href="./menu.html">MENU</a>
+                <a href="./rewards.html">REWARDS</a>
+                <a href="">GIFT CARDS</a>
+            </div>
+        </div>
+        <div class="header-right">
+            <i class="fa-solid fa-location-dot fa-2x"></i>
+            <a class="header-left-span" href="./find-store.html">Find a Store</a>
+            <input class="header-left-button1" type="button" value="Sign in" onclick="redirectToSignIn()">
+            <input class="header-left-button2" type="button" value="Join now" onclick="redirectToJoinNow()">
+
+        </div>
+        <div class="hamburger-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+    </header>
+
+
+    <section class="container-sm">
+        <div class="join-now-top">
+            <h1 style="padding-top: 10px;">Create an account</h1>
+            <h5 style="padding-top: 40px;">STARBUCKS® REWARDS</h5>
+            <span>Join Starbucks Rewards to earn Stars for free food and drinks, any way you <br> pay. Get access to
+                mobile ordering, a birthday Reward, and <a style="color: black;" href="">more</a>.
+            </span>
+
+        </div>
+        
+    </section>
+    <section class="container-sm join-now-forms">
+
+        <div class="join-now-form">
+            <span class="join-now-span-1">* indicates required field</span><br>
+            <h6 class="join-now-span-2">Personal Information</h6>
+            <input class="boxses" type="text" placeholder="First Name" name="" id="">
+            <input class="boxses" type="text" placeholder="Last Name" name="" id=""><br>
+            <h6 class="join-now-span-2">Account Security</h6>
+            <input class="boxses" type="email" placeholder="Email adress" name="" id="">
+            <span class="join-now-span-1">This will br your username</span>
+            <input  class="sign-in-password boxses" type="password" placeholder="*Password" name="" id="password-input">
+            <i id="password-icon" class="fa-regular fa-eye  password-icon" onclick="togglePassword()"></i>
+            <span class="join-now-span-1" >Create a password 8 to 25 characters long that <br> includes at least 1 uppercase and 1 lowercase <br> letter, 1 number and 1 special character like an <br> exclamation point or asterisk.</span>
+            <div class="custom-checkbox">
+                <input type="checkbox" id="myCheckbox" class="checkbox-input">
+                <label for="myCheckbox" class="checkbox-label">
+                    <span class="checkmark"></span>
+                    Yes, I’d like email from Starbucks
+                </label><br>
+
+            </div>
+            <span class="join-now-span-1">TERMS OF USE</span>
+            <span class="join-now-span-1">I agree to the 
+                Starbucks® Rewards Terms <br>
+                opens in new window and the 
+                Starbucks Card Terms
+                opens in new window and have <br> read the 
+                Starbucks Privacy Statement
+                opens in new window.</span>
+                
+                <input class="checkbox-2" type="checkbox" name="" id="">
+                <input class="join-now-btn" type="button" value="Creat account">
+        </div>
+    </section>
+
+
+    <footer style="margin-top: 100px;">
+        <div class="container-sm">
+            <div class="footer-top">
+                <ul class="ul2">
+                    <li> About Us</li>
+                    <li>Our Company</li>
+                    <li>Our Coffee</li>
+                    <li>Stories and News</li>
+                    <li>Starbucks Archive</li>
+                    <li>Investor Relations</li>
+                    <li>Customer Service</li>
+                </ul>
+                <ul class="ul2">
+                    <li>Careers</li>
+                    <li>Culture and Values</li>
+                    <li>Inclusion, Diversity, and Equity</li>
+                    <li>College Achievement Plan</li>
+                    <li>Alumni Community</li>
+                    <li>U.S. Careers</li>
+                    <li>International Careers</li>
+                </ul>
+                <ul class="ul2">
+                    <li>Social Impact</li>
+                    <li>People</li>
+                    <li>Planet</li>
+                    <li>Environmental and Social <br> Impact Reporting</li>
+                </ul>
+                <ul class="ul2">
+                    <li>For Business Partners</li>
+                    <li>Landlord Support Center</li>
+                    <li>Suppliers</li>
+                    <li>Corporate Gift Card Sales</li>
+                    <li>Office and Foodservice Coffee</li>
+                </ul>
+                <ul class="ul2">
+                    <li>Order and Pickup</li>
+                    <li>Order on the App</li>
+                    <li>Order on the Web</li>
+                    <li>Delivery</li>
+                    <li>Order and Pickup Options</li>
+                    <li>Explore and Find Coffee for Home</li>
+                </ul>
+            </div>
+        </div>
+        <div class="container-sm">
+            <div class="footer-down">
+                <div class="footer-brands">
+                    <div class="footer-brands"><i class="fa-brands fa-spotify footer-brands fa-2x" style="color: #000000;"></i></div>
+                    <div class="footer-brands"><i class="fa-brands fa-facebook footer-brands fa-2x" style="color: #000000;"></i></div>
+                    <div class="footer-brands"><i class="fa-brands fa-pinterest footer-brands fa-2x" style="color: #000000;"></i></div>
+                    <div class="footer-brands"><i class="fa-brands fa-square-instagram footer-brands fa-2x" style="color: #000000;"></i></div>
+                    <div class="footer-brands"><i class="fa-brands fa-square-youtube footer-brands fa-2x" style="color: #000000;"></i></div>
+                    <div class="footer-brands"><i class="fa-brands fa-square-twitter footer-brands fa-2x" style="color: #000000;"></i></div>
+                </div><br>
+                <div class="footer-a">
+                    <a class="footer-a" href="">Privacy Notice |</a>
+                    <a class="footer-a" href="">Terms of Use |</a>
+                    <a class="footer-a" href="">Do Not Share My Personal Information |</a>
+                    <a class="footer-a" href="">CA Supply Chain Act |</a>
+                    <a class="footer-a" href="">Cookie Preferences </a>
+                </div><br>
+                <span class="footer-a">© 2023 Starbucks Coffee Company. All rights reserved.</span><br>
+
+        </div>
+    </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+<script src="./main.js"></script>
+
+</html>

@@ -1,0 +1,489 @@
+header {
+  border-bottom: 1px solid #DCDCDC;
+  height: 125px;
+  position: relative;
+}
+
+.header-left a {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: inline;
+  padding-left: 20px;
+  font-size: 23px;
+  font-weight: bolder;
+}
+
+.header-left-a {
+  position: absolute;
+  top: 45px;
+  left: 180px;
+}
+
+.header-right {
+  padding-right: 80px;
+}
+
+.header-left-button1 {
+  width: 120px;
+  height: 50px;
+  background-color: white;
+  border-radius: 30px;
+  border: 3px solid black;
+  color: black;
+  font-size: 18px;
+}
+
+.header-left-button2 {
+  width: 120px;
+  height: 50px;
+  background-color: black;
+  border-radius: 30px;
+  color: white;
+  font-size: 18px;
+}
+
+.header-left-span {
+  font-size: 25px;
+  padding-left: 10px;
+  padding-right: 50px;
+  text-decoration: none;
+  color: black;
+}
+
+header {
+  border-bottom: 1px solid #DCDCDC;
+  height: 125px;
+  position: relative;
+}
+
+.header-logo {
+  position: absolute;
+  width: 85px;
+  height: 85px;
+  left: 100px;
+  top: 15px;
+}
+
+.header-right {
+  position: absolute;
+  right: 0;
+  top: 40px;
+}
+
+/* Hamburger Menu */
+.hamburger-menu {
+  display: block;
+  padding: 15px;
+  position: fixed;
+  top: 35px;
+  right: 0;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.hamburger-menu span {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin-bottom: 5px;
+  background-color: white;
+  transition: all 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 1408px) {
+  .mobile-menu {
+    display: block;
+    width: 50%;
+    height: 100%;
+    top: 0;
+    right: -50%;
+    z-index: 1;
+    transition: right 0.3s ease-in-out;
+    overflow: auto;
+  }
+  .show-menu .mobile-menu {
+    right: 50%;
+  }
+  .hamburger-menu span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin-bottom: 5px;
+    background-color: black;
+    transition: all 0.3s ease-in-out;
+  }
+  .header-left-a {
+    display: none;
+  }
+  .header-right {
+    display: none;
+  }
+}
+.main-menu {
+  position: absolute;
+  left: 100px;
+  top: 15px;
+  z-index: 1;
+  color: transparent;
+}
+
+body header {
+  border-bottom: 1px solid #DCDCDC;
+  height: 125px;
+  position: relative;
+  font-family: "Poppins", sans-serif;
+}
+body .header-left a {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: inline;
+  padding-left: 20px;
+  font-weight: bolder;
+}
+body .header-left-a {
+  position: absolute;
+  top: 45px;
+  left: 180px;
+}
+body .header-right {
+  padding-right: 80px;
+}
+body .header-left-button1 {
+  width: 120px;
+  height: 50px;
+  background-color: white;
+  border-radius: 30px;
+  border: 3px solid black;
+  color: black;
+  font-size: 18px;
+}
+body .header-left-button2 {
+  width: 120px;
+  height: 50px;
+  background-color: black;
+  border-radius: 30px;
+  color: white;
+  font-size: 18px;
+}
+body .header-left-span {
+  font-size: 25px;
+  padding-left: 10px;
+  padding-right: 50px;
+  text-decoration: none;
+  color: black;
+}
+body header {
+  border-bottom: 1px solid #DCDCDC;
+  height: 125px;
+  position: relative;
+}
+body .header-logo {
+  position: absolute;
+  width: 85px;
+  height: 85px;
+  left: 100px;
+  top: 15px;
+}
+body .header-right {
+  position: absolute;
+  right: 0;
+  top: 40px;
+}
+body .hamburger-menu {
+  display: block;
+  padding: 15px;
+  position: fixed;
+  top: 35px;
+  right: 0;
+  z-index: 1;
+  cursor: pointer;
+}
+body .hamburger-menu span {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin-bottom: 5px;
+  background-color: white;
+  transition: all 0.3s ease-in-out;
+}
+@media screen and (max-width: 1408px) {
+  body .mobile-menu {
+    display: block;
+    width: 50%;
+    height: 100%;
+    top: 0;
+    right: -50%;
+    z-index: 1;
+    transition: right 0.3s ease-in-out;
+    overflow: auto;
+  }
+  body .show-menu .mobile-menu {
+    right: 50%;
+  }
+  body .hamburger-menu span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin-bottom: 5px;
+    background-color: black;
+    transition: all 0.3s ease-in-out;
+  }
+  body .header-left-a {
+    display: none;
+  }
+  body .header-right {
+    display: none;
+  }
+}
+body .main-menu {
+  position: absolute;
+  left: 100px;
+  top: 15px;
+  z-index: 1;
+  color: transparent;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: flex-start;
+  padding-right: 100px;
+  height: 300px;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+}
+
+li:first-child {
+  font-size: 25px;
+  font-weight: 400;
+  padding-top: 100px;
+}
+
+.ul2 {
+  display: inline-block;
+  list-style: none;
+  font-size: 17px;
+}
+
+.footer-brands {
+  display: inline;
+  display: flex;
+  padding-top: 5px;
+  padding-left: 30px;
+}
+
+.footer-a {
+  display: inline;
+  padding-top: 30px;
+  padding-left: 10px;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+body header {
+  border-bottom: 1px solid #DCDCDC;
+  height: 125px;
+  position: relative;
+  font-family: "Poppins", sans-serif;
+}
+body .header-left a {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: inline;
+  padding-left: 20px;
+  font-weight: bolder;
+}
+body .header-left-a {
+  position: absolute;
+  top: 45px;
+  left: 180px;
+}
+body .header-right {
+  padding-right: 80px;
+}
+body .header-left-button1 {
+  width: 120px;
+  height: 50px;
+  background-color: white;
+  border-radius: 30px;
+  border: 3px solid black;
+  color: black;
+  font-size: 18px;
+}
+body .header-left-button2 {
+  width: 120px;
+  height: 50px;
+  background-color: black;
+  border-radius: 30px;
+  color: white;
+  font-size: 18px;
+}
+body .header-left-span {
+  font-size: 25px;
+  padding-left: 10px;
+  padding-right: 50px;
+  text-decoration: none;
+  color: black;
+}
+body header {
+  border-bottom: 1px solid #DCDCDC;
+  height: 125px;
+  position: relative;
+}
+body .header-logo {
+  position: absolute;
+  width: 85px;
+  height: 85px;
+  left: 100px;
+  top: 15px;
+}
+body .header-right {
+  position: absolute;
+  right: 0;
+  top: 40px;
+}
+body .hamburger-menu {
+  display: block;
+  padding: 15px;
+  position: fixed;
+  top: 35px;
+  right: 0;
+  z-index: 1;
+  cursor: pointer;
+}
+body .hamburger-menu span {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin-bottom: 5px;
+  background-color: white;
+  transition: all 0.3s ease-in-out;
+}
+@media screen and (max-width: 1408px) {
+  body .mobile-menu {
+    display: block;
+    width: 50%;
+    height: 100%;
+    top: 0;
+    right: -50%;
+    z-index: 1;
+    transition: right 0.3s ease-in-out;
+    overflow: auto;
+  }
+  body .show-menu .mobile-menu {
+    right: 50%;
+  }
+  body .hamburger-menu span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin-bottom: 5px;
+    background-color: black;
+    transition: all 0.3s ease-in-out;
+  }
+  body .header-left-a {
+    display: none;
+  }
+  body .header-right {
+    display: none;
+  }
+}
+body .main-menu {
+  position: absolute;
+  left: 100px;
+  top: 15px;
+  z-index: 1;
+  color: transparent;
+}
+
+.menu-body {
+  position: relative;
+}
+
+.menu-left {
+  padding-left: 130px;
+  padding-top: 100px;
+  width: 25%;
+  height: 7000px;
+  float: left;
+}
+
+.menu-left ul li {
+  list-style: none;
+  font-size: 30px;
+  display: flex;
+  padding-top: 20px;
+  color: gray;
+}
+
+.menu-left ul li:first-child {
+  font-weight: bolder;
+  padding-top: 20px;
+  color: black;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.menu-right {
+  padding-top: 100px;
+}
+
+.menu-menu {
+  font-size: 35px;
+  font-weight: bolder;
+}
+
+.menu-drinks {
+  font-size: 40px;
+  font-weight: bolder;
+  padding-top: 40px;
+}
+
+.line-right {
+  border-bottom: 1px solid gray;
+  display: flex;
+  margin-right: 300px;
+}
+
+.menu-right-top2 {
+  margin-top: 100px;
+}
+
+.drink-1 {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+}
+
+.menu-right-drinks {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: row;
+}
+
+.drink-2 {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  margin-left: 400px;
+}
+
+.food-line {
+  width: 40%;
+  border-top: 1px solid gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}/*# sourceMappingURL=menu.css.map */

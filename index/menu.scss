@@ -1,0 +1,104 @@
+@import "./style.scss";
+
+body {
+    @include headermain;
+}
+
+@import "./footers.scss";
+
+body {
+    @include headermain;
+}
+
+.menu-body {
+    position: relative;
+}
+
+.menu-left {
+    padding-left: 130px;
+    padding-top: 100px;
+    width: 25%;
+    height: 7000px;
+    float: left;
+}
+
+.menu-left ul li {
+    list-style: none;
+    font-size: 30px;
+    display: flex;
+    padding-top: 20px;
+    color: gray;
+
+}
+
+.menu-left ul li:first-child {
+    font-weight: bolder;
+    padding-top: 20px;
+    color: black;
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.menu-right {
+    padding-top: 100px;
+
+
+}
+
+
+.menu-menu {
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+.menu-drinks {
+    font-size: 40px;
+    font-weight: bolder;
+    padding-top: 40px;
+
+}
+
+.line-right {
+    border-bottom: 1px solid gray;
+    display: flex;
+    margin-right: 300px;
+}
+
+.menu-right-top2 {
+    margin-top: 100px;
+
+}
+
+.drink-1{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+
+.menu-right-drinks{
+    padding-top: 100px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.drink-2{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    margin-left: 400px;
+}
+
+.food-line{
+    width: 40%;
+    border-top: 1px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}

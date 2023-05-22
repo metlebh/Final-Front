@@ -1,0 +1,279 @@
+@mixin headermain{
+ 
+  
+  header{
+    border-bottom: 1px solid #DCDCDC;
+    height: 125px;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+
+  }
+  
+  .header-left a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: inline;
+    padding-left: 20px;
+    font-weight: bolder;
+  
+  
+  }
+  .header-left-a{
+    position: absolute;
+    top: 45px;
+    left: 180px;
+  }
+ 
+  .header-right{
+  padding-right: 80px;
+  }
+  .header-left-button1{
+    width: 120px;
+    height: 50px;
+    background-color: white;
+    border-radius: 30px;
+    border: 3px solid black;
+    color: black;
+    font-size: 18px;
+  }
+  .header-left-button2{
+    width: 120px;
+    height: 50px;
+    background-color: black;
+    border-radius: 30px;
+    color: white;
+    font-size: 18px;
+    
+  }
+  .header-left-span{
+    font-size: 25px;
+    padding-left: 10px;
+    padding-right: 50px;
+    text-decoration: none;
+    color: black;
+  }
+  header {
+  border-bottom: 1px solid #DCDCDC;
+  height: 125px;
+  position: relative;
+  }
+  
+  .header-logo {
+  position: absolute;
+  width: 85px;
+  height: 85px;
+  left: 100px;
+  top: 15px;
+  
+  }
+  
+  .header-right {
+  position: absolute;
+  right: 0;
+  top: 40px;
+  }
+  
+  
+  .hamburger-menu {
+  display: block;
+  padding: 15px;
+  position: fixed;
+  top: 35px;
+  right: 0;
+  z-index: 1;
+  cursor: pointer;
+  }
+  
+  .hamburger-menu span {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin-bottom: 5px;
+  background-color: white;
+  transition: all 0.3s ease-in-out;
+  }
+  
+  
+  @media screen and (max-width: 1408px) {
+  
+  
+  
+  .mobile-menu {
+    display: block;
+    width: 50%;
+    height: 100%;
+    top: 0;
+    right: -50%;
+    z-index: 1;
+    transition: right 0.3s ease-in-out;
+    overflow: auto;
+  }
+  
+  .show-menu .mobile-menu {
+    right: 50%;
+  }
+  .hamburger-menu span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin-bottom: 5px;
+    background-color: black;
+    transition: all 0.3s ease-in-out;
+  }
+  .header-left-a{
+    display: none;
+  }
+  .header-right{
+    display: none;
+  }
+  }
+  .main-menu{
+    position: absolute;
+    left: 100px;
+    top: 15px;
+    z-index: 1;
+    color: transparent;
+  }
+    
+}
+
+
+
+header{
+  border-bottom: 1px solid #DCDCDC;
+  height: 125px;
+  position: relative;
+}
+
+.header-left a{
+  text-decoration: none;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: inline;
+  padding-left: 20px;
+  font-size: 23px;
+  font-weight: bolder;
+
+
+}
+.header-left-a{
+  position: absolute;
+  top: 45px;
+  left: 180px;
+}
+.header-right{
+padding-right: 80px;
+}
+.header-left-button1{
+  width: 120px;
+  height: 50px;
+  background-color: white;
+  border-radius: 30px;
+  border: 3px solid black;
+  color: black;
+  font-size: 18px;
+}
+.header-left-button2{
+  width: 120px;
+  height: 50px;
+  background-color: black;
+  border-radius: 30px;
+  color: white;
+  font-size: 18px;
+  
+}
+.header-left-span{
+  font-size: 25px;
+  padding-left: 10px;
+  padding-right: 50px;
+  text-decoration: none;
+  color: black;
+}
+header {
+border-bottom: 1px solid #DCDCDC;
+height: 125px;
+position: relative;
+}
+
+.header-logo {
+position: absolute;
+width: 85px;
+height: 85px;
+left: 100px;
+top: 15px;
+
+}
+
+.header-right {
+position: absolute;
+right: 0;
+top: 40px;
+}
+
+
+/* Hamburger Menu */
+.hamburger-menu {
+display: block;
+padding: 15px;
+position: fixed;
+top: 35px;
+right: 0;
+z-index: 1;
+cursor: pointer;
+}
+
+.hamburger-menu span {
+display: block;
+width: 25px;
+height: 3px;
+margin-bottom: 5px;
+background-color: white;
+transition: all 0.3s ease-in-out;
+}
+
+
+@media screen and (max-width: 1408px) {
+
+
+
+.mobile-menu {
+  display: block;
+  width: 50%;
+  height: 100%;
+  top: 0;
+  right: -50%;
+  z-index: 1;
+  transition: right 0.3s ease-in-out;
+  overflow: auto;
+}
+
+.show-menu .mobile-menu {
+  right: 50%;
+}
+.hamburger-menu span {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin-bottom: 5px;
+  background-color: black;
+  transition: all 0.3s ease-in-out;
+}
+.header-left-a{
+  display: none;
+}
+.header-right{
+  display: none;
+}
+}
+.main-menu{
+  position: absolute;
+  left: 100px;
+  top: 15px;
+  z-index: 1;
+  color: transparent;
+}
